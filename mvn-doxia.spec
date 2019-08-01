@@ -4,7 +4,7 @@
 #
 Name     : mvn-doxia
 Version  : 1.0
-Release  : 7
+Release  : 8
 URL      : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-core/1.0/doxia-core-1.0.jar
 Source0  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-core/1.0/doxia-core-1.0.jar
 Source1  : https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.7/doxia-module-fml-1.7.jar
@@ -121,8 +121,9 @@ Source111  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia/1.1.2/d
 Source112  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia/1.1/doxia-1.1.pom
 Source113  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia/1.2/doxia-1.2.pom
 Source114  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia/1.4/doxia-1.4.pom
-Source115  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia/1.6/doxia-1.6.pom
-Source116  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia/1.8/doxia-1.8.pom
+Source115  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia/1.5/doxia-1.5.pom
+Source116  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia/1.6/doxia-1.6.pom
+Source117  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia/1.8/doxia-1.8.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
@@ -489,11 +490,14 @@ cp %{SOURCE113} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxi
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.4
 cp %{SOURCE114} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.4/doxia-1.4.pom
 
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.5
+cp %{SOURCE115} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.5/doxia-1.5.pom
+
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.6
-cp %{SOURCE115} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.6/doxia-1.6.pom
+cp %{SOURCE116} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.6/doxia-1.6.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.8
-cp %{SOURCE116} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.8/doxia-1.8.pom
+cp %{SOURCE117} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.8/doxia-1.8.pom
 
 
 %files
@@ -607,6 +611,7 @@ cp %{SOURCE116} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxi
 /usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.1/doxia-1.1.pom
 /usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.2/doxia-1.2.pom
 /usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.4/doxia-1.4.pom
+/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.5/doxia-1.5.pom
 /usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.6/doxia-1.6.pom
 /usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.7/doxia-1.7.pom
 /usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.8/doxia-1.8.pom
