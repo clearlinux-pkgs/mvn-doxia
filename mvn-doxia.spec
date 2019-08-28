@@ -4,7 +4,7 @@
 #
 Name     : mvn-doxia
 Version  : 1.0
-Release  : 8
+Release  : 9
 URL      : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-core/1.0/doxia-core-1.0.jar
 Source0  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-core/1.0/doxia-core-1.0.jar
 Source1  : https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.7/doxia-module-fml-1.7.jar
@@ -96,38 +96,44 @@ Source86  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-modules/
 Source87  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-modules/1.6/doxia-modules-1.6.pom
 Source88  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-modules/1.7/doxia-modules-1.7.pom
 Source89  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-modules/1.8/doxia-modules-1.8.pom
-Source90  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.jar
-Source91  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.pom
-Source92  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.jar
-Source93  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.pom
-Source94  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.1.2/doxia-sink-api-1.1.2.jar
-Source95  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.1.2/doxia-sink-api-1.1.2.pom
-Source96  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.1/doxia-sink-api-1.1.jar
-Source97  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.1/doxia-sink-api-1.1.pom
-Source98  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.2/doxia-sink-api-1.2.jar
-Source99  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.2/doxia-sink-api-1.2.pom
-Source100  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.4/doxia-sink-api-1.4.jar
-Source101  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.4/doxia-sink-api-1.4.pom
-Source102  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.5/doxia-sink-api-1.5.jar
-Source103  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.5/doxia-sink-api-1.5.pom
-Source104  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.6/doxia-sink-api-1.6.jar
-Source105  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.6/doxia-sink-api-1.6.pom
-Source106  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.8/doxia-sink-api-1.8.jar
-Source107  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.8/doxia-sink-api-1.8.pom
-Source108  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia/1.0-alpha-10/doxia-1.0-alpha-10.pom
-Source109  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia/1.0-alpha-7/doxia-1.0-alpha-7.pom
-Source110  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia/1.0/doxia-1.0.pom
-Source111  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia/1.1.2/doxia-1.1.2.pom
-Source112  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia/1.1/doxia-1.1.pom
-Source113  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia/1.2/doxia-1.2.pom
-Source114  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia/1.4/doxia-1.4.pom
-Source115  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia/1.5/doxia-1.5.pom
-Source116  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia/1.6/doxia-1.6.pom
-Source117  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia/1.8/doxia-1.8.pom
+Source90  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-6/doxia-sink-api-1.0-alpha-6.jar
+Source91  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-6/doxia-sink-api-1.0-alpha-6.pom
+Source92  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.jar
+Source93  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.pom
+Source94  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.jar
+Source95  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.pom
+Source96  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.1.2/doxia-sink-api-1.1.2.jar
+Source97  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.1.2/doxia-sink-api-1.1.2.pom
+Source98  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.1/doxia-sink-api-1.1.jar
+Source99  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.1/doxia-sink-api-1.1.pom
+Source100  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.2/doxia-sink-api-1.2.jar
+Source101  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.2/doxia-sink-api-1.2.pom
+Source102  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.4/doxia-sink-api-1.4.jar
+Source103  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.4/doxia-sink-api-1.4.pom
+Source104  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.5/doxia-sink-api-1.5.jar
+Source105  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.5/doxia-sink-api-1.5.pom
+Source106  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.6/doxia-sink-api-1.6.jar
+Source107  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.6/doxia-sink-api-1.6.pom
+Source108  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.8/doxia-sink-api-1.8.jar
+Source109  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.8/doxia-sink-api-1.8.pom
+Source110  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia/1.0-alpha-10/doxia-1.0-alpha-10.pom
+Source111  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia/1.0-alpha-6/doxia-1.0-alpha-6.pom
+Source112  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia/1.0-alpha-7/doxia-1.0-alpha-7.pom
+Source113  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia/1.0/doxia-1.0.pom
+Source114  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia/1.1.2/doxia-1.1.2.pom
+Source115  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia/1.1/doxia-1.1.pom
+Source116  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia/1.2/doxia-1.2.pom
+Source117  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia/1.4/doxia-1.4.pom
+Source118  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia/1.5/doxia-1.5.pom
+Source119  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia/1.6/doxia-1.6.pom
+Source120  : https://repo1.maven.org/maven2/org/apache/maven/doxia/doxia/1.8/doxia-1.8.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
 Requires: mvn-doxia-data = %{version}-%{release}
+Requires: mvn-doxia-license = %{version}-%{release}
+BuildRequires : apache-maven
+BuildRequires : buildreq-mvn
 
 %description
 No detailed description available
@@ -140,11 +146,22 @@ Group: Data
 data components for the mvn-doxia package.
 
 
+%package license
+Summary: license components for the mvn-doxia package.
+Group: Default
+
+%description license
+license components for the mvn-doxia package.
+
+
 %prep
+%setup -q -n META-INF
 
 %build
 
 %install
+mkdir -p %{buildroot}/usr/share/package-licenses/mvn-doxia
+cp LICENSE %{buildroot}/usr/share/package-licenses/mvn-doxia/LICENSE
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-core/1.0
 cp %{SOURCE0} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-core/1.0/doxia-core-1.0.jar
 
@@ -415,89 +432,98 @@ cp %{SOURCE88} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-modules/1.8
 cp %{SOURCE89} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-modules/1.8/doxia-modules-1.8.pom
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7
-cp %{SOURCE90} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.jar
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-6
+cp %{SOURCE90} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-6/doxia-sink-api-1.0-alpha-6.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-6
+cp %{SOURCE91} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-6/doxia-sink-api-1.0-alpha-6.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7
-cp %{SOURCE91} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.pom
+cp %{SOURCE92} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7
+cp %{SOURCE93} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0
-cp %{SOURCE92} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.jar
+cp %{SOURCE94} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0
-cp %{SOURCE93} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.pom
+cp %{SOURCE95} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.1.2
-cp %{SOURCE94} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.1.2/doxia-sink-api-1.1.2.jar
+cp %{SOURCE96} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.1.2/doxia-sink-api-1.1.2.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.1.2
-cp %{SOURCE95} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.1.2/doxia-sink-api-1.1.2.pom
+cp %{SOURCE97} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.1.2/doxia-sink-api-1.1.2.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.1
-cp %{SOURCE96} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.1/doxia-sink-api-1.1.jar
+cp %{SOURCE98} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.1/doxia-sink-api-1.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.1
-cp %{SOURCE97} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.1/doxia-sink-api-1.1.pom
+cp %{SOURCE99} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.1/doxia-sink-api-1.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.2
-cp %{SOURCE98} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.2/doxia-sink-api-1.2.jar
+cp %{SOURCE100} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.2/doxia-sink-api-1.2.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.2
-cp %{SOURCE99} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.2/doxia-sink-api-1.2.pom
+cp %{SOURCE101} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.2/doxia-sink-api-1.2.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.4
-cp %{SOURCE100} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.4/doxia-sink-api-1.4.jar
+cp %{SOURCE102} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.4/doxia-sink-api-1.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.4
-cp %{SOURCE101} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.4/doxia-sink-api-1.4.pom
+cp %{SOURCE103} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.4/doxia-sink-api-1.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.5
-cp %{SOURCE102} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.5/doxia-sink-api-1.5.jar
+cp %{SOURCE104} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.5/doxia-sink-api-1.5.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.5
-cp %{SOURCE103} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.5/doxia-sink-api-1.5.pom
+cp %{SOURCE105} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.5/doxia-sink-api-1.5.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.6
-cp %{SOURCE104} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.6/doxia-sink-api-1.6.jar
+cp %{SOURCE106} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.6/doxia-sink-api-1.6.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.6
-cp %{SOURCE105} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.6/doxia-sink-api-1.6.pom
+cp %{SOURCE107} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.6/doxia-sink-api-1.6.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.8
-cp %{SOURCE106} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.8/doxia-sink-api-1.8.jar
+cp %{SOURCE108} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.8/doxia-sink-api-1.8.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.8
-cp %{SOURCE107} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.8/doxia-sink-api-1.8.pom
+cp %{SOURCE109} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.8/doxia-sink-api-1.8.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.0-alpha-10
-cp %{SOURCE108} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.0-alpha-10/doxia-1.0-alpha-10.pom
+cp %{SOURCE110} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.0-alpha-10/doxia-1.0-alpha-10.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.0-alpha-6
+cp %{SOURCE111} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.0-alpha-6/doxia-1.0-alpha-6.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.0-alpha-7
-cp %{SOURCE109} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.0-alpha-7/doxia-1.0-alpha-7.pom
+cp %{SOURCE112} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.0-alpha-7/doxia-1.0-alpha-7.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.0
-cp %{SOURCE110} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.0/doxia-1.0.pom
+cp %{SOURCE113} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.0/doxia-1.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.1.2
-cp %{SOURCE111} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.1.2/doxia-1.1.2.pom
+cp %{SOURCE114} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.1.2/doxia-1.1.2.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.1
-cp %{SOURCE112} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.1/doxia-1.1.pom
+cp %{SOURCE115} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.1/doxia-1.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.2
-cp %{SOURCE113} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.2/doxia-1.2.pom
+cp %{SOURCE116} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.2/doxia-1.2.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.4
-cp %{SOURCE114} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.4/doxia-1.4.pom
+cp %{SOURCE117} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.4/doxia-1.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.5
-cp %{SOURCE115} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.5/doxia-1.5.pom
+cp %{SOURCE118} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.5/doxia-1.5.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.6
-cp %{SOURCE116} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.6/doxia-1.6.pom
+cp %{SOURCE119} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.6/doxia-1.6.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.8
-cp %{SOURCE117} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.8/doxia-1.8.pom
+cp %{SOURCE120} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.8/doxia-1.8.pom
 
 
 %files
@@ -584,6 +610,8 @@ cp %{SOURCE117} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxi
 /usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-modules/1.7/doxia-modules-1.7.pom
 /usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-modules/1.8/doxia-modules-1.8.pom
 /usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-10/doxia-sink-api-1.0-alpha-10.pom
+/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-6/doxia-sink-api-1.0-alpha-6.jar
+/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-6/doxia-sink-api-1.0-alpha-6.pom
 /usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.jar
 /usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.pom
 /usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.jar
@@ -605,6 +633,7 @@ cp %{SOURCE117} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxi
 /usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.8/doxia-sink-api-1.8.jar
 /usr/share/java/.m2/repository/org/apache/maven/doxia/doxia-sink-api/1.8/doxia-sink-api-1.8.pom
 /usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.0-alpha-10/doxia-1.0-alpha-10.pom
+/usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.0-alpha-6/doxia-1.0-alpha-6.pom
 /usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.0-alpha-7/doxia-1.0-alpha-7.pom
 /usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.0/doxia-1.0.pom
 /usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.1.2/doxia-1.1.2.pom
@@ -615,3 +644,7 @@ cp %{SOURCE117} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/doxi
 /usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.6/doxia-1.6.pom
 /usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.7/doxia-1.7.pom
 /usr/share/java/.m2/repository/org/apache/maven/doxia/doxia/1.8/doxia-1.8.pom
+
+%files license
+%defattr(0644,root,root,0755)
+/usr/share/package-licenses/mvn-doxia/LICENSE
